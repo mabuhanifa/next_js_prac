@@ -1,12 +1,12 @@
-import { useRouter } from 'next/router';
 
 const RoutesDetails = () => {
     const router = useRouter();
     const routesId = router.query.routesId;
+    console.log(router);
     return (
         <div>
             <div>
-               hi  {routesId}
+               hi  
             </div>
         </div>
     );
